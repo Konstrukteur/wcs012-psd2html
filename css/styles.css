@@ -2,6 +2,16 @@
     margin: 0;
 }
 
+button {
+    color: #00e0d0;
+    background-color: transparent;
+    border: 2px solid #00e0d0;
+    border-radius: 4px;
+    width: 140px;
+    height: 40px;
+    margin-top: 30px;
+}
+
 nav {
     color: red;
 }
@@ -23,13 +33,10 @@ nav {
 }
 
 #team-section {
+    color: white;
     background-color: #271d38;
     text-align: center;
     padding: 70px 70px;
-}
-
-.team-text {
-    color: white;
 }
 
 .team-text h2 {
@@ -60,16 +67,6 @@ nav {
     align-items: center;
     height: 80px;
     margin-bottom: 70px;
-}
-
-.hiring-button {
-    color: #00e0d0;
-    background-color: transparent;
-    border: 2px solid #00e0d0;
-    border-radius: 4px;
-    width: 140px;
-    height: 40px;
-    margin-top: 30px;
 }
 
 #contact_client-section {
