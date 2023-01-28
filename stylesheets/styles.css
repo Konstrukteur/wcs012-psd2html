@@ -253,13 +253,10 @@ nav a {
 #contact_client-section {
     display: flex;
     justify-content: center;
-    gap: 20px;
-
-    /* why does this not work? */
-    /* max-width: 940px; */
-
-    padding: 100px 0 70px 0;
-
+    gap: 80px;
+    min-width: 840px;
+    padding-top: 100px;
+    padding-bottom: 70px;
     background-color: white;
 }
 
@@ -267,7 +264,7 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: start;
-
+    width: 40%;
     max-width: 460px;
 }
 .contact-grid-item textarea {
@@ -306,33 +303,21 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: start;
+}
 
-    padding: 0 0 0 60px;
-    max-width: 460px;
-} 
 .client-logo-grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 70px;
     row-gap: 40px;
-    max-width: 460px;
-}
-.client-logo-grid-container img {
-    /* width: 100%; */
-}
-
-.client-logo-grid-item {
-    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    justify-items: center;
 }
 
-.contact-grid-item h2 {
+.contact-grid-item h2, .client-grid-item h2 {
     margin-bottom: 40px;
 }
-
-.client-grid-item h2 {
-    margin-bottom: 50px;
-}
-
 
 /* Footer styles */
 footer {
@@ -536,37 +521,15 @@ footer h2 {
     text-decoration: none;
 }
 
-
-   
-
-/* @media only screen and (max-width: 840px) {
-    .contact-grid-container {
-        display: grid;
-        grid-template-columns: 1fr;
-        width: 80%;
-        column-gap: 20px;
-        margin: 70px auto;
-        row-gap: 70px;
-    }
-    .contact-grid-item {
-        display: flex;
+@media only screen and (max-width: 840px) {
+    #contact_client-section {
         flex-direction: column;
         align-items: center;
+    }
+    #contact_client-section form {
         text-align: center;
-    } 
+    }
+    .contact-grid-item, .client-grid-item {
+        align-items: center;
+    }
 }
-
-@media only screen and (min-width: 840px) {
-    .contact-grid-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        width: 80%;
-        column-gap: 20px;
-        margin: 70px auto;
-    }
-    .contact-grid-item {
-        display: flex;
-        flex-direction: column;
-        align-items: left;
-    }
-} */
