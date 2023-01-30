@@ -169,15 +169,76 @@ nav a {
 
 /* Our-story styles */
 #our_story-section {
-    color: green;
+    display: flex; 
+    align-items: center;
+    height: 402px;
+    justify-content: center;
 }
-
+#our_story-section img {
+    width: 235px;
+    height: 229px;
+    padding: 70px 100px 100px  0px;
+}
+.ourstory-flexitem {
+    max-width: 538px;
+}
+.ourstory-flexitem h2 {
+    color: #413d4b;
+    font-family: "Playfair Display";
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "O, UR STOR" */
+    letter-spacing: 1.1px;
+}
+.ourstory-flexitem p {
+    margin:28px 0 21px 0;
+    opacity: 0.75;
+    color: #413d4b;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    /* Text style for "T, his is" */
+    letter-spacing: 0.42px;
+}
+.ourstory-flexitem button {
+    margin: 0;
+}
 #watch-section {
-    color: darkred;
+    background-image: url("../images/bgk-middle.png");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    padding: 202 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+#watch-section img {
+    height: 100px;
+    width: 100px;
+}
+#watch-section p {
+    width: 156px;
+    height: 12px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    /* Text style for "W, ATCH OU" */
+    letter-spacing: 0.8px;
+    margin: 34px 0 0 0;
+}
 #expertise-section {
     color: fuchsia;
+    height: 755px;
+
 }
 
 /* Team styles */
