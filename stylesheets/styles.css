@@ -67,11 +67,12 @@ header {
 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
 }
 nav {
     /* Make the header shrink */
-    width: 960px;
+    max-width: 960px;
+    width: 80%;
 
     display: flex;
     justify-content: space-between;
@@ -79,6 +80,7 @@ nav {
 
     color: #FFF;
     text-decoration: none;
+    margin: 0 auto;
 }
 nav a {
     font-family: "Roboto";
@@ -93,35 +95,9 @@ nav a {
     text-decoration: none;
 }
 
-.nav-right {
-    flex: 0 1 auto;
-    justify-self: flex-end;
-}
-
-.nav-right ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    height: 9px;
-    width: 526px;
-}
-
-.nav-right ul li {
-    list-style: none;
-}
-
-/* .nav-right ul li:hover a {
-    color: #00e0d0;
-} */
-
-.nav-right ul li:first-child a {
-    color: #00e0d0;
-}
-
 .nav-left {
-    flex: 2;
-    display: flex;
+    flex: 1 1 394px;
+    display: inline-flex;
     align-items: center;
     justify-content: start;
     
@@ -138,6 +114,34 @@ nav a {
     margin: 11px 0 0 11px;
 }
 
+.nav-right {
+    flex: 1 1 auto;
+    float: right;
+}
+
+.nav-right ul {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    height: 9px;
+    width: 526px;
+}
+
+.nav-right ul li {
+    list-style: none;
+}
+
+.nav-right ul li:hover a {
+    color: #00e0d0;
+}
+
+.nav-right ul li:first-child a {
+    color: #00e0d0;
+}
+
 /* Hero styles */
 #hero-section {
     display: flex;
@@ -146,8 +150,9 @@ nav a {
     justify-content: space-between;
 
     max-width: 940px;
+    width: 90%;
     padding: 183px 0;
-    /* margin: 0 auto; */
+    margin: 0 auto;
 }
 
 #hero-section .seperator-line {
