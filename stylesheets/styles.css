@@ -200,8 +200,6 @@ nav a {
 }
 
 #watch-section p {
-    width: 156px;
-    height: 12px;
     color: #ffffff;
     font-family: Roboto;
     font-size: 16px;
@@ -567,7 +565,6 @@ footer h2 {
 }
 
 #footer-right button {
-    /* margin-top: 0; */
     height: 45px;
     width: 70px;
     margin: 0;
@@ -735,5 +732,20 @@ footer h2 {
     }
     .client-logo-grid-container {
         column-gap: 25px;
+    }
+    #links ul li a {
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .client-logo-grid-container {
+        grid-template-columns: 1fr;
+    }
+    .expertise-grid-item h3, .expertise-grid-item p {
+        font-size: 0.6em;
+    }
+    .team-grid-container {
+        font-size: 0.5em;
     }
 }
