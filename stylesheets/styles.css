@@ -30,12 +30,13 @@ button {
     background-color: transparent;
     text-transform: uppercase;
     font-family: 'Hammersmith One';
-    font-weight: 400;
+    font-weight: bold;
     border: 1px solid #00e0d0;
     border-radius: 4px;
-    width: 120px;
-    height: 40px;
+    /* width: 120px; */
+    /* height: 40px; */
     margin-top: 30px;
+    padding: 15px 15px 15px 15px
 }
 
 button:hover {
@@ -379,7 +380,7 @@ nav a {
     display: flex;
     justify-content: center;
     gap: 80px;
-    min-width: 840px;
+    /* min-width: 840px; */
     padding-top: 100px;
     padding-bottom: 70px;
     background-color: white;
@@ -446,19 +447,21 @@ nav a {
 
 /* Footer styles */
 footer {
-    display: grid;
-    grid-template-columns: repeat(3, 300px);
-    gap: 20px;
-    justify-content: center;
-
-    box-sizing: border-box;
-    padding: 90px 0 70px 0;
+    padding: 90px 5% 70px 5%;
     background-image: url('../images/bgk-footer.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 400px;
+    /* height: 400px; */
+    color: #FFF;
+}
 
+.footer-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    /* height: 400px; */
     color: #FFF;
 }
 
@@ -609,7 +612,7 @@ footer h2 {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 940px;
+    width: 100%;
     padding: 40px 0 0 0;
 
 }
@@ -625,7 +628,6 @@ footer h2 {
 }
 #links ul li a {
     color: #FFF;
-
     font-family: 'Roboto';
     font-size: 14px;
     font-weight: 400;
@@ -633,13 +635,13 @@ footer h2 {
     text-transform: uppercase;
     letter-spacing: 0.35px;
     text-decoration: none;
+    padding-right: 30px;
 }
 #links p {
     flex: 1 0 auto;
     text-align: right;
     display: block;
     color: #FFF;
-
     font-family: 'Roboto';
     font-size: 14px;
     font-weight: 400;
