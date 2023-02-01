@@ -9,25 +9,23 @@
         <title>Document</title>
     </head>
     <body>
-        <header>
-            <nav>
+        <header class="grid grid-row-header">
+            <nav class="grid_2-14">
                 <div class="nav-left">
                     <img src="images/png/logo.png" alt="logo">
                     <txt>tajam</txt>
                 </div>
-                <div class="nav-right">
-                    <ul>
-                        <li><a href="#hero-section">Home</a></li>
-                        <li><a href="#our_story-section">About</a></li>
-                        <li><a href="#expertise-section">Expertise</a></li>
-                        <li><a href="#team-section">Teams</a></li>
-                        <li><a href="#contact_client-section">Works</a></li>
-                        <li><a href="#contact_client-section">People say</a></li>
-                        <li><a href="#contact_client-section">Contact</a></li>
-                    </ul>
-                </div>
+                <ul class="nav-right">
+                    <li><a href="#hero-section">Home</a></li>
+                    <li><a href="#our_story-section">About</a></li>
+                    <li><a href="#expertise-section">Expertise</a></li>
+                    <li><a href="#team-section">Teams</a></li>
+                    <li><a href="#contact_client-section">Works</a></li>
+                    <li><a href="#contact_client-section">People say</a></li>
+                    <li><a href="#contact_client-section">Contact</a></li>
+                </ul>
             </nav>
-            <section id="hero-section">
+            <section id="hero-section" class="grid_3-13">
                 <h1>We Are Awesome Creative Agency</h1>
                 <div class="seperator-line"></div>
                 <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
@@ -35,9 +33,11 @@
             </section>
         </header>
         <main>
-            <section id="our_story-section">
-                <img src="./images/png/logo-big.png">
-                <div class="ourstory-flexitem">
+            <section id="our_story-section" class="grid">
+                <div class="ourstory-image-container grid_2-7">
+                    <img src="./images/png/logo-big.png">
+                </div>
+                <div class="ourstory-flexitem grid_7-14">
                     <h2 class="dark">OUR STORY</h2>  
                     <p class="thestory"> This is Photoshop's version of Lorem Ipusm. Proin gravida hfdsjk<br>    
                         guhrgke. Anennigh whatsever ,so just writing anything for practice don't exagerate my love.<br>
@@ -50,100 +50,110 @@
                     <button class="btn-ismail">LEARN MORE</button>
                 </div>
             </section> 
-            <section id="watch-section">
-                <img src="images/png/play.png" alt="plays the video"/>
-                <p>Watch our story</p>
-            </section> <!---  Ismail -->
-            <section id="expertise-section">
-                <h2 class="dark">Expertise</h2>
-                <p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
-                <div class="seperator-line"></div>
-                <div class="expertise-grid-container">
-                    <div class="expertise-grid-item line-right line-bottom">
-                        <img src="images/png/screen.png" />
-                        <h3>Web Design & Development</h3>
-                        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
-                    </div>
-                    <div class="expertise-grid-item line-right line-bottom">
-                        <img src="images/png/pen.png" />
-                        <h3>Branding Identity</h3>
-                        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
-                    </div>
-                    <div class="expertise-grid-item line-bottom">
-                        <img src="images/png/mobile.png" />
-                        <h3>Mobile App</h3>
-                        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
-                    </div>
-                    <div class="expertise-grid-item line-right">
-                        <img src="images/png/graph.png" />
-                        <h3>Search Engine Optimization</h3>
-                        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
-                    </div>
-                    <div class="expertise-grid-item line-right">
-                        <img src="images/png/gameboy.png" />
-                        <h3>Game Development</h3>
-                        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
-                    </div>
-                    <div class="expertise-grid-item">
-                        <img src="images/png/heart.png" />
-                        <h3>Made With Love</h3>
-                        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
-                    </div>
+
+            <section id="watch-section" class="grid">
+                <div class="watch-container grid_2-14">
+                    <img src="images/png/play.png" alt="plays the video"/>
+                    <p>Watch our story</p>
                 </div>
             </section>
-            <section id="team-section">
-                <div class="team-text">
-                    <h2>Meet our amazing team</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur</p>
+
+            <section id="expertise-section" class="grid">
+                <div class="expertise-container grid_2-14">
+                    <h2 class="dark">Expertise</h2>
+                    <p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
                     <div class="seperator-line"></div>
-                </div>
-                <div class="team-grid-container">
-                    <a href="#">
-                        <div class="team-grid-item-picture">
-                            <img src="./images/1.jpeg" alt="Semf Ucuk">
+                    <div class="expertise-grid-container">
+                        <div class="expertise-grid-item line-right line-bottom">
+                            <img src="images/png/screen.png" />
+                            <h3>Web Design & Development</h3>
+                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
                         </div>
-                    </a>
-                    <a href="#">
-                        <div class="team-grid-item-picture">
-                            <img src="./images/2.jpeg" alt="Dick Adalin">
+                        <div class="expertise-grid-item line-right line-bottom">
+                            <img src="images/png/pen.png" />
+                            <h3>Branding Identity</h3>
+                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
                         </div>
-                    </a>
-                    <a href="#">
-                        <div class="team-grid-item-picture">
-                            <img src="./images/3.jpeg" alt="Jeng Kol">
+                        <div class="expertise-grid-item line-bottom">
+                            <img src="images/png/mobile.png" />
+                            <h3>Mobile App</h3>
+                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
                         </div>
-                    </a>
-                    <a href="#">
-                        <div class="team-grid-item-picture">
-                            <img src="./images/4.jpeg" alt="Pet Romak">
+                        <div class="expertise-grid-item line-right">
+                            <img src="images/png/graph.png" />
+                            <h3>Search Engine Optimization</h3>
+                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
                         </div>
-                    </a>
-                    <div class="team-grid-item-name">
-                        <p class="team-member">Semf Ucuk</p>
-                        <p class="team-role">CEO & Founder</p>
+                        <div class="expertise-grid-item line-right">
+                            <img src="images/png/gameboy.png" />
+                            <h3>Game Development</h3>
+                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                        </div>
+                        <div class="expertise-grid-item">
+                            <img src="images/png/heart.png" />
+                            <h3>Made With Love</h3>
+                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                        </div>
                     </div>
-                    <div class="team-grid-item-name">
-                        <p class="team-member">Dick Adalin</p>
-                        <p class="team-role">Engineering</p>
-                    </div>
-                    <div class="team-grid-item-name">
-                        <p class="team-member">Jeng Kol</p>
-                        <p class="team-role">Designer</p>
-                    </div>
-                    <div class="team-grid-item-name">
-                        <p class="team-member">Pet Romak</p>
-                        <p class="team-role">Marketing</p>
-                    </div>
-                </div>
-                <div class="team-text">
-                    <p>Become part of our dream team, let's join us !</p>
-                </div>
-                <div id="hiring-button">
-                    <button id="hiring-button">We are Hiring</button>
                 </div>
             </section>
-            <section id="contact_client-section">
-                <div class="contact-grid-item">
+
+            <section id="team-section" class="grid">
+                <div class="team-container grid_2-14">
+                    <div class="team-text">
+                        <h2>Meet our amazing team</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur</p>
+                        <div class="seperator-line"></div>
+                    </div>
+                    <div class="team-grid-container">
+                        <a href="#">
+                            <div class="team-grid-item-picture">
+                                <img src="./images/1.jpeg" alt="Semf Ucuk">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="team-grid-item-picture">
+                                <img src="./images/2.jpeg" alt="Dick Adalin">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="team-grid-item-picture">
+                                <img src="./images/3.jpeg" alt="Jeng Kol">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="team-grid-item-picture">
+                                <img src="./images/4.jpeg" alt="Pet Romak">
+                            </div>
+                        </a>
+                        <div class="team-grid-item-name">
+                            <p class="team-member">Semf Ucuk</p>
+                            <p class="team-role">CEO & Founder</p>
+                        </div>
+                        <div class="team-grid-item-name">
+                            <p class="team-member">Dick Adalin</p>
+                            <p class="team-role">Engineering</p>
+                        </div>
+                        <div class="team-grid-item-name">
+                            <p class="team-member">Jeng Kol</p>
+                            <p class="team-role">Designer</p>
+                        </div>
+                        <div class="team-grid-item-name">
+                            <p class="team-member">Pet Romak</p>
+                            <p class="team-role">Marketing</p>
+                        </div>
+                    </div>
+                    <div class="team-text">
+                        <p>Become part of our dream team, let's join us !</p>
+                    </div>
+                    <div id="hiring-button">
+                        <button id="hiring-button">We are Hiring</button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact_client-section" class="grid">
+                <div class="contact-grid-item grid_2-8">
                     <h2 class="dark">Give Us A Good News</h2>
                     <form action="#" role="contact">
                         <input type="text" placeholder="Name" alt="name" />
@@ -153,7 +163,7 @@
                         <button>Submit</button>
                     </form>
                 </div>
-                <div class="client-grid-item">
+                <div class="client-grid-item grid_9-14">
                     <h2 class="dark">Our Happy Client</h2>
                     <div class="client-logo-grid-container">
                         <div class="client-logo-grid-item"><img src="images/png/Zara_Logo.png" alt="zara" height="22px" width="162px"></div> <!-- The only image incorrectly sized by default -->
@@ -170,8 +180,8 @@
                 </div>
             </section>
         </main>
-        <footer>
-            <div class="footer-grid-container">
+        <footer class="grid grid-row-footer">
+            <div class="grid_2-14 footer-grid-container">
                 <div id="footer-left">
                     <div class="logo-section">
                         <img src="images/png/logo.png" alt="logo">
@@ -207,7 +217,7 @@
                     </div>
                 </div>
             </div>
-            <div id="links">
+            <div id="links" class="grid_2-14">
                 <div id="links-left">
                     <ul>
                         <li><a href="">Help</a></li>
