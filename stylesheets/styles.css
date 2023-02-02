@@ -2,6 +2,7 @@
 * {
     margin: 0;
     font-family: 'Roboto';
+    
 }
 
 h1 {
@@ -235,15 +236,100 @@ nav a {
     letter-spacing: 0.8px;
     margin: 34px 0 0 0;
 }
-#expertise-section {
-    color: fuchsia;
-    height: 755px;
 
+#expertise-header {
+    text-align:center ;
+    margin-bottom: 2rem;
+    /* Text style for "EXPERTISE" */
+}
+    #expertise-header h3 {
+    margin-top: 2rem;
+    color: #413d4b;
+    font-family: "Playfair Display";
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "EXPERTISE" */
+    }
+
+#expertise-header p {
+    opacity: 0.75;
+    color: #2f2d35;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.05px;
+    
 }
 
-/* Team styles */
+.bord {
+    border: 0.2px solid #a39cb9;
+    width: 80px;
+    margin: 10px auto;
+    background-color: #413d4b;
+    opacity: 0.3;
+}
+
+
+
+/* #expertise-header hr {
+this is the breaker<hr> styling 
+border: 1px thin #e00000 ;
+width: 50px;
+height: 2px;
+margin: 10px auto;
+background-color: #413d4b;
+opacity: 0.3;
+}*/
+
+.expertise-section {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    max-width: 1000px ;
+    align-items: space-between;
+    flex-wrap: wrap;
+    font-family: "Roboto";
+}
+
+
+.mission-section {
+padding: 2rem;
+text-align: center;
+}
+
+.border-right {
+    border-right: 1px solid rgb(235, 235, 235);  
+}
+
+.border-bottom {
+    border-bottom: 1px solid rgb(235, 235, 235) ;
+    opacity: 0.7;
+}
+
+
+.mission-section img {
+width: 35px;
+height: 35px;
+background-image: linear-gradient(to right, #00e0d0 0%, 100%);
+}
+.mission-section h4 {
+margin-top: 0.5rem;
+font-size: 0.8rem;
+}
+
+.mission-section p {
+margin-top: 15px;
+color: #413d4b;
+font-family: "Roboto - Black";
+font-size: 14px;
+font-weight: 400;
+opacity: 0.6;
+}
+
 #team-section {
     display: flex;
+    margin-top: 5rem;
     flex-direction: column;
     align-items: center;
     color: white;
