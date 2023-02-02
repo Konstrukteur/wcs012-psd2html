@@ -458,6 +458,12 @@ footer {
     color: #FFF;
 }
 
+.footer-container {
+    max-width: 960px;
+    width: 90%;
+    margin: 0 auto;
+}
+
 .footer-grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -475,8 +481,6 @@ footer h2 {
     text-transform: uppercase;
     letter-spacing: 0.75px;
 }
-
-#footer-details
 
 #footer-left {
     display: flex;
@@ -583,6 +587,10 @@ footer h2 {
     letter-spacing: 0.7px;
 }
 #footer-right button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     height: 45px;
     width: 70px;
     margin: 0;

@@ -171,56 +171,71 @@
             </section>
         </main>
         <footer>
-            <div class="footer-grid-container">
-                <div id="footer-left">
-                    <div class="logo-section">
-                        <img src="images/png/logo.png" alt="logo">
-                        <txt>tajam</txt>
+            <div class="footer-container">
+                <div class="footer-grid-container">
+                    <div id="footer-left">
+                        <div class="logo-section">
+                            <img src="images/png/logo.png" alt="logo">
+                            <txt>tajam</txt>
+                        </div>
+                        <p>lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit</p>
                     </div>
-                    <p>lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit</p>
-                </div>
-                <div id="footer-middle">
-                    <h2>Our Studio</h2>
-                    <div>
-                        <img src="images/png/big104.png">
-                        <p>Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat
-                            11480 - Indonesia</p>
+                    <div id="footer-middle">
+                        <h2>Our Studio</h2>
+                        <div>
+                            <img src="images/png/big104.png">
+                            <p>Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat
+                                11480 - Indonesia</p>
+                        </div>
+                        <div>
+                            <img src="images/png/phone351.png">
+                            <p>(+62) 21-2224 3333</p>
+                        </div>
                     </div>
-                    <div>
-                        <img src="images/png/phone351.png">
-                        <p>(+62) 21-2224 3333</p>
+                    <div id="footer-right">
+                        <h2>Stay in touch</h2>
+                        <form>
+                            <input placeholder="Subscribe our newsletter">
+                            <button>
+                                <img src="images/png/paper122.png" />
+                            </button>
+                        </form>
+                        <div>
+                            <a href="" alt="Facebook"><img src="images/png/facebook.png" alt="Facebook"></a>
+                            <a href="" alt="Twitter"><img src="images/png/twitter.png" alt="Twitter"></a>
+                            <a href="" alt="Dribbble"><img src="images/png/dribbble.png" alt="Dribbble"></a>
+                            <a href="" alt="Instagram"><img src="images/png/instagram.png" alt="Instagram"></a>
+                            <a href="" alt="GPlus"><img src="images/png/gplus.png" alt="GPlus"></a>
+                            <a href="" alt="Youtube"><img src="images/png/youtube.png" alt="Youtube"></a>
+                        </div>
                     </div>
                 </div>
-                <div id="footer-right">
-                    <h2>Stay in touch</h2>
-                    <form>
-                        <input placeholder="Subscribe our newsletter">
-                        <button><img src="images/png/paper122.png"></button>
-                    </form>
-                    <div>
-                        <a href="" alt="Facebook"><img src="images/png/facebook.png" alt="Facebook"></a>
-                        <a href="" alt="Twitter"><img src="images/png/twitter.png" alt="Twitter"></a>
-                        <a href="" alt="Dribbble"><img src="images/png/dribbble.png" alt="Dribbble"></a>
-                        <a href="" alt="Instagram"><img src="images/png/instagram.png" alt="Instagram"></a>
-                        <a href="" alt="GPlus"><img src="images/png/gplus.png" alt="GPlus"></a>
-                        <a href="" alt="Youtube"><img src="images/png/youtube.png" alt="Youtube"></a>
+                <div id="links">
+                    <div id="links-left">
+                        <ul>
+                            <li><a href="">Help</a></li>
+                            <li><a href="">Terms & Conditions</a></li>
+                            <li><a href="">Privacy</a></li>
+                        </ul>
                     </div>
-                </div>
-            </div>
-            <div id="links">
-                <div id="links-left">
-                    <ul>
-                        <li><a href="">Help</a></li>
-                        <li><a href="">Terms & Conditions</a></li>
-                        <li><a href="">Privacy</a></li>
-                    </ul>
-                </div>
-                <div id="links-right">
-                    <p>
-                        Copyright © 2015 - Tajem Creative
-                    </p>
-                </div>
+                    <div id="links-right">
+                        <p>
+                            Copyright © 2015 - Tajem Creative
+                        </p>
+                    </div>
+                </div>   
             </div>
         </footer>
+
+    <script>
+        function hamburgerFunction() {
+            var x = document.getElementById("hamburger-links");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
     </body>
 </html>
