@@ -441,6 +441,11 @@ footer {
   /* height: 400px; */
   color: #fff;
 }
+.footer-container {
+    max-width: 960px;
+    width: 90%;
+    margin: 0 auto;
+}
 
 .footer-grid-container {
   display: grid;
