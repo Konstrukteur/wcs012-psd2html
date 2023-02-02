@@ -583,9 +583,14 @@ footer h2 {
 }
 
 #footer-right button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   height: 45px;
   width: 70px;
   margin: 0;
+
   border: 1px solid #ffffff;
   background-color: #ffffff;
   opacity: 0.5;
@@ -597,18 +602,21 @@ footer h2 {
   background-color: transparent;
 }
 
-/* #footer-right button img {
-    width: 25px;
-    padding: 0;
-    margin: 0;
-} */
+#footer-right button img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  padding: 0;
+  margin: 0;
+}
 
-#footer-right form img {
+/* #footer-right form img {
   border: 1px solid #ffffff;
   background-color: #ffffff;
   opacity: 0.5;
   padding: 6px 15px 6px 15px;
-}
+} */
 
 #footer-right div {
   margin: 27px 0 0 0;
