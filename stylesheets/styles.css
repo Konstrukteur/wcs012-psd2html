@@ -712,6 +712,23 @@ footer h2 {
     #hero-section {
         padding: 150px 0;
     }
+    .expertise-grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    /* reset borders */
+    .line-bottom {
+        border-bottom: none;
+    }
+    .line-right {
+        border-right: none;
+    }
+    /* recreate borders */
+    .expertise-grid-item:nth-child(-n+4) {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    .expertise-grid-item:nth-child(odd) {
+        border-right: 1px solid rgba(0, 0, 0, 0.2);
+    }
     .footer-grid-container {
         grid-template-columns: 1fr;
     }
@@ -742,9 +759,9 @@ footer h2 {
     .client-logo-grid-container {
         grid-template-columns: 1fr;
     }
-    .expertise-grid-item h3, .expertise-grid-item p {
+    /* .expertise-grid-item h3, .expertise-grid-item p {
         font-size: 0.6em;
-    }
+    } */
     .team-grid-container {
         font-size: 0.5em;
     }
