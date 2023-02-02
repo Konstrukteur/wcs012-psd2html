@@ -276,8 +276,7 @@ nav a {
     align-items: center;
     justify-content: center;
     height: auto;
-    padding: 5px;
-    margin-top: 30px;
+    padding: 30px 5px 10px 5px;
 }
 .expertise-grid-item h3 {
     color: #413d4b;
