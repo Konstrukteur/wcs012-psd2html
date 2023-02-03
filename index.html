@@ -4,9 +4,11 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="images/favicon/favicon-32x32.png">
         <link rel="stylesheet" href="stylesheets/fonts.css">
         <link rel="stylesheet" href="stylesheets/styles.css">
-        <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Tajam</title>
     </head>
     <body>
         <header>
@@ -16,7 +18,7 @@
                     <txt>tajam</txt>
                 </div>
                 <div class="nav-right">
-                    <ul>
+                    <ul id="nav-items">
                         <li><a href="#hero-section">Home</a></li>
                         <li><a href="#our_story-section">About</a></li>
                         <li><a href="#expertise-section">Expertise</a></li>
@@ -25,6 +27,19 @@
                         <li><a href="#contact_client-section">People say</a></li>
                         <li><a href="#contact_client-section">Contact</a></li>
                     </ul>
+                    <div class="hamburger">
+                        <div id="hamburger-links">
+                            <a href="#hero-section">Home</a>
+                            <a href="#our_story-section">About</a>
+                            <a href="#expertise-section">Expertise</a>
+                            <a href="#team-section">Teams</a>
+                            <a href="#contact_client-section">Works</a>
+                            <a href="#contact_client-section">People say</a>
+                            <a href="#contact_client-section">Contact</a>
+                          </div>
+                        <a href="javascript:void(0);" class="icon" onclick="hamburgerFunction()"><i class="fa fa-bars"></i></a>
+
+                    </div>
                 </div>
             </nav>
             <section id="hero-section">
@@ -196,9 +211,7 @@
                         <h2>Stay in touch</h2>
                         <form>
                             <input placeholder="Subscribe our newsletter">
-                            <button>
-                                <img src="images/png/paper122.png" />
-                            </button>
+                            <button><img src="images/png/paper122.png" /></button>
                         </form>
                         <div>
                             <a href="" alt="Facebook"><img src="images/png/facebook.png" alt="Facebook"></a>
@@ -235,7 +248,7 @@
             } else {
                 x.style.display = "block";
             }
-        }
+            }
     </script>
     </body>
 </html>
